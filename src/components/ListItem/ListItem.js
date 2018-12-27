@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+
 const ListItem = (props) => (
 	<View style={styles.listItem}>
 		<Text>{props.placeName}</Text>
@@ -11,7 +12,7 @@ const styles = StyleSheet.create({
 	listItem: {
 		width: '100%',
 		padding: 10,
-		backgroundColor: "#fee",
+		backgroundColor: "#aee",
 		alignItems: 'center',
 		margin: 5
 	}
